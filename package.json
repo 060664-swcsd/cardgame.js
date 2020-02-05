@@ -1,7 +1,7 @@
 {
   "name": "cardgame",
   "version": "1.0.0",
-  "description": "Uno.JS, but neater and more features not oriented around just Uno",
+  "description": "",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js localhost 8080"

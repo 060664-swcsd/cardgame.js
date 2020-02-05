@@ -21,7 +21,7 @@ app.get("/", function(req, res) {
 });
 
 io.on("connection", socket => {
-  console.log("User connected.");
+  console.log("User connected!");
 
   socket.theirUUID = utils.generateID(16);
   socket.theirNickname = "UNO Player " + Math.floor(Math.random() * 1000000);

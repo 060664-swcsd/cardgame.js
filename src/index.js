@@ -31,6 +31,4 @@ io.on("connection", socket => {
 
 httpServ.listen(port, function() {
   console.log("Listening on port " + port.toString());
-  // console.log();
 });
-//console.log("lol");
